@@ -127,8 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="MAANGInterview.cpp" />
     <ClCompile Include="Merge2SortedArray.cpp" />
+    <ClCompile Include="PostorderTraversal.cpp" />
+    <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="SortByColor.cpp" />
     <ClCompile Include="SubArrayGivenSum.cpp" />
     <ClCompile Include="Summation.cpp" />

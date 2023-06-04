@@ -5,10 +5,14 @@
 #include "SortByColor.cpp"
 #include "SubArrayGivenSum.cpp"
 #include "Merge2SortedArray.cpp"
+#include "Common.cpp"
+#include "InorderTraversal.cpp"
+#include "PreorderTraversal.cpp"
+#include "PostorderTraversal.cpp"
 
 int main()
 {
-    /* C/C++ */
+    //C/C++
     /*1.*/summation();
 
 
@@ -22,8 +26,9 @@ int main()
 
 
 
-    //C/C++
-    /*1.*/summation();
-    /*1.*/summation();
-    /*1.*/summation();
+    //TreeDataStructure
+    TreeNode* N = NULL;
+    ///*1.*/inorderTraversal(N);
+    /*2.*/preorderTraversal(N);
+    /*3.*/postorderTraversal(N);
 }
