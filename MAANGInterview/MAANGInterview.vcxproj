@@ -130,12 +130,16 @@
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="MAANGInterview.cpp" />
+    <ClCompile Include="MaxProductSubarray.cpp" />
     <ClCompile Include="Merge2SortedArray.cpp" />
     <ClCompile Include="PostorderTraversal.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="SortByColor.cpp" />
     <ClCompile Include="SubArrayGivenSum.cpp" />
     <ClCompile Include="Summation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MAANGInterview.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -25,6 +25,9 @@
     <Filter Include="Source Files\Common">
       <UniqueIdentifier>{cd576d55-3a73-4cfd-9e46-f3b69206d43e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\DP">
+      <UniqueIdentifier>{6c575735-c5e1-4650-a0fb-ea086442e1cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MAANGInterview.cpp">
@@ -54,5 +57,13 @@
     <ClCompile Include="PostorderTraversal.cpp">
       <Filter>Source Files\TreeDataStructure</Filter>
     </ClCompile>
+    <ClCompile Include="MaxProductSubarray.cpp">
+      <Filter>Source Files\DP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MAANGInterview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

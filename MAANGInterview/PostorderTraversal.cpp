@@ -1,18 +1,10 @@
 #include<vector>
-#include "Common.cpp"
 #include <stack>
+
+#include "MAANGInterview.h"
+
 using namespace std;
 
-
-/**
- * Definition for binary tree
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
 vector<int> postorderTraversal(TreeNode* root) {
     stack<TreeNode*> nodeStack;
     vector<int> result;
